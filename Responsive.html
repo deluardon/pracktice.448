@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box{
+        background-color: chartreuse;
+
+       }
+       .box-two{
+        background-color: chocolate;
+
+       }
+        .box-container{
+             display: flex;
+             width: 100%;
+             gap: 20px;
+             
+             
+        }
+        .container-2{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item{
+            width: 200px;
+            height: 100px;
+            background-color: aquamarine;
+            border: 2px solid tomato;
+        }
+        @media screen and (min-width: 368px{
+            .box-container{
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+       <div class="box-container">
+        <div class="box">
+            Lorem ipsum dolor sit amet consenter adipisicing elit. Fugit ut illo incidunt dolorem quisquam iste voluptatum cum eum a ad.
+        </div>
+        <div class="box-two">
+         <p>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, minima dolore incidunt tempore architecto sed alias impedit ullam, </p>
+        </div>
+       </div>
+       <div class="container-2">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-9</div>
+        <div class="item">item-10</div>
+       </div>
+</body>
+</html>

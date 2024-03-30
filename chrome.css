@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100vw;
+    height: 90vh;
+    background-color: tomato;
+}
+.box{
+    align-items: center;
+    justify-content: first baseline;
+    width: 100px; 
+    height: 100px;
+}
